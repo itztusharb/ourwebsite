@@ -539,6 +539,176 @@ h1 {
   letter-spacing: 2px;
 }
 
+.coupon7 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -200px 250px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon7::before,
+.coupon7::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon7::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon7::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon7 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left7 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left7 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center7 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right7 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right7 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center7 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center7 h3 {
+  font-size: 2.15rem;
+}
+
+.center7 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon8 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0px 800px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon8::before,
+.coupon8::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon8::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon8::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon8 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left8 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left8 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center8 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right8 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right8 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center8 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center8 h3 {
+  font-size: 2.15rem;
+}
+
+.center8 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 
 @media screen and (max-width: 600px){
 	h1 {
@@ -643,7 +813,7 @@ h1 {
   height: 80px;
   border-radius: 10px;
   overflow: hidden;
-  margin: -80px 220px;
+  margin: -80px 200px;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
   display: flex;
   align-items: stretch;
@@ -816,7 +986,7 @@ h1 {
   height: 80px;
   border-radius: 10px;
   overflow: hidden;
-  margin: -230px 220px;
+  margin: -230px 200px;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
   display: flex;
   align-items: stretch;
@@ -989,7 +1159,7 @@ h1 {
   height: 80px;
   border-radius: 10px;
   overflow: hidden;
-  margin: -380px 220px;
+  margin: -380px 200px;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
   display: flex;
   align-items: stretch;
@@ -1068,4 +1238,179 @@ h1 {
   font-size: 0.625rem;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+
+
+.coupon7 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 445px 200px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon7::before,
+.coupon7::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon7::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon7::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon7 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left7 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left7 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center7 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right7 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right7 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center7 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.6rem;
+  white-space: wrap;
+}
+
+.center7 h3 {
+  font-size: 1.2rem;
+}
+
+.center7 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.coupon8 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -525px 0px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon8::before,
+.coupon8::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon8::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon8::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon8 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left8 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left8 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center8 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right8 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right8 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center8 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.6rem;
+  white-space: wrap;
+}
+
+.center8 h3 {
+  font-size: 1.2rem;
+}
+
+.center8 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
 }
