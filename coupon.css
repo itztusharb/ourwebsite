@@ -1,0 +1,1071 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: hotpink;
+    text-decoration-style: wavy;
+}
+
+.coupon {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: left;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon::before,
+.coupon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center h3 {
+  font-size: 2.15rem;
+}
+
+.center small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+
+
+.coupon2 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -200px 550px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon2::before,
+.coupon2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon2::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon2::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left2 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left2 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center2 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right2 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right2 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center2 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center2 h3 {
+  font-size: 2.15rem;
+}
+
+.center2 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+
+.coupon3 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -200px 1100px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon3::before,
+.coupon3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon3::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon3::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left3 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left3 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center3 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right3 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right3 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center3 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center3 h3 {
+  font-size: 2.15rem;
+}
+
+.center3 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon4 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 300px 0px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon4::before,
+.coupon4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon4::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon4::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon4 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left4 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left4 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center4 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right4 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right4 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center4 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center4 h3 {
+  font-size: 2.15rem;
+}
+
+.center4 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon5 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -500px 550px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon5::before,
+.coupon5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon5::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon5::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon5 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left5 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left5 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center5 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right5 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right5 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center5 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center5 h3 {
+  font-size: 2.15rem;
+}
+
+.center5 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon6 {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 300px 1100px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon6::before,
+.coupon6::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon6::before {
+  left: 0;
+  background-image: radial-gradient(circle at 0 50%, transparent 25px, pink 26px);
+}
+
+.coupon6::after {
+  right: 0;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, pink 26px);
+}
+
+.coupon6 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left6 {
+  width: 80px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left6 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.center6 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right6 {
+  width: 120px;
+  background-image: radial-gradient(circle at 100% 50%, transparent 25px, #fff 26px);
+}
+
+.right6 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 2.5rem;
+  transform: rotate(-90deg);
+}
+
+.center6 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.center6 h3 {
+  font-size: 2.15rem;
+}
+
+.center6 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+@media screen and (max-width: 600px){
+	h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: hotpink;
+    text-decoration-style: wavy;
+	margin-top: 30px;
+}
+
+.coupon {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: left;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon::before,
+.coupon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  white-space: wrap;
+}
+
+.center h3 {
+  font-size: 1.2rem;
+}
+
+.center small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.coupon2 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -80px 220px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon2::before,
+.coupon2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon2::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon2::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon2 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left2 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left2 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center2 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right2 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right2 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center2 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  white-space: wrap;
+}
+
+.center2 h3 {
+  font-size: 1.2rem;
+}
+
+.center2 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon3 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 150px 0px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon3::before,
+.coupon3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon3::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon3::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon3 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left3 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left3 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center3 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right3 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right3 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center3 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  white-space: wrap;
+}
+
+.center3 h3 {
+  font-size: 1.2rem;
+}
+
+.center3 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.coupon4 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -230px 220px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon4::before,
+.coupon4::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon4::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon4::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon4 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left4 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left4 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center4 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right4 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right4 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center4 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  white-space: wrap;
+}
+
+.center4 h3 {
+  font-size: 1.2rem;
+}
+
+.center4 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.coupon5 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 300px 0px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon5::before,
+.coupon5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon5::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon5::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon5 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left5 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left5 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center5 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right5 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right5 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center5 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.6rem;
+  white-space: wrap;
+}
+
+.center5 h3 {
+  font-size: 1.2rem;
+}
+
+.center5 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.coupon6 {
+  width: 180px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: -380px 220px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  display: flex;
+  align-items: stretch;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.coupon6::before,
+.coupon6::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+}
+
+.coupon6::before {
+  left: 0;
+  background-image: radial-gradient(circle at -15% 50%, transparent 25px, pink 26px);
+}
+
+.coupon6::after {
+  right: 0;
+  background-image: radial-gradient(circle at 115% 50%, transparent 25px, pink 26px);
+}
+
+.coupon6 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left6 {
+  width: 35px;
+  border-right: 2px dashed rgba(0, 0, 0, 0.15);
+}
+
+.left6 div {
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 0.5rem;
+}
+
+.center6 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.right6 {
+  width: 120px;
+  background-image: radial-gradient(circle at 122% 50%, transparent 25px, #fff 26px);
+}
+
+.right6 div {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 1rem;
+  transform: rotate(-90deg);
+}
+
+.center6 h2 {
+  background: #D90166;
+  color: white;
+  padding: 0 10px;
+  font-size: 0.6rem;
+  white-space: wrap;
+}
+
+.center6 h3 {
+  font-size: 1.2rem;
+}
+
+.center6 small {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
